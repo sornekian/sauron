@@ -3,9 +3,6 @@ body,
 h1,
 h2,
 h3,
-p,
-ul,
-li,
 form,
 input,
 textarea,
@@ -150,4 +147,17 @@ section h2 {
     /* More dramatic font for headings */
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.about-image,
+.home-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-image img,
+.home-image img {
+    width: 25%;
+    height: 75%;
+    max-width: 50%;
 }
