@@ -63,6 +63,7 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    margin-bottom: 10px;
 }
 
 section {
@@ -160,4 +161,16 @@ section h2 {
     width: 25%;
     height: 75%;
     max-width: 50%;
+}
+
+#services ul {
+    list-style: none;
+    /* Optional: Remove bullet points */
+    padding-left: 0;
+    /* Optional: Remove default padding */
+}
+
+#services li {
+    margin-bottom: 20px;
+    /* Adjust the spacing between each list item */
 }
